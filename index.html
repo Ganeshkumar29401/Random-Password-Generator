@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get Strong Password</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assests/style/style.css" />
+    <script src="./assests/script/app.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="head_condition">
+        <h2>Password Generator</h2>
+      </header>
+      <div class="result_container">
+        <span id="result"></span>
+        <button class="copy_btn"><i class="far fa-clipboard"></i></button>
+      </div>
+      <div class="conditions">
+        <div class="condition">
+          <label for="count">Password Length</label>
+          <input type="number" id="count" min="5" max="20" value="20"/>
+        </div>
+        <div class="condition">
+          <label for="uCase">Include Uppercase Letters</label>
+          <input type="checkbox" id="uCase" checked />
+        </div>
+        <div class="condition">
+          <label for="lCase">Include Lowercase Letters</label>
+          <input type="checkbox" id="lCase" checked />
+        </div>
+        <div class="condition">
+          <label for="num">Include Numbers</label>
+          <input type="checkbox" id="num" checked />
+        </div>
+        <div class="condition">
+          <label for="sKey">Include Symbols</label>
+          <input type="checkbox" id="sKey" checked />
+        </div>
+        <button class="btn btn_large">Generate Password</button>
+      </div>
+    </div>
+
+
+    <!-- social-media-panel -->
+    <div class="social-media-panel">
+        <div class="medias">
+            <p>
+                Created with <i class="fa fa-heart"></i> by <span id="my_name">GaneshKumar M</span>
+              </p>
+              <button class="closebtn"><i class="fas fa-times"></i></button>
+            <h3>SOCIAL MEDIA</h3>
+            <ul class="media_list">
+                <li><a href="https://github.com/Ganeshkumar29401" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a></li>
+                <li><a href="https://www.linkedin.com/in/ganeshkumar-m-9a6318192/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a></li>
+                <li><a href="https://www.facebook.com/ganesh.reigns.7" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="expand_details">
+        <button id="btn" class="final_btn">Get In Touch</button>
+    </div>
+  </body>
+</html>
